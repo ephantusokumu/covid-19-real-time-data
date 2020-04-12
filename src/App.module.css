@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media (max-width: 770px){
+    .container{
+        margin: 0 10px;
+    }
+    .image{
+        width: 100%;
+    }
+}
