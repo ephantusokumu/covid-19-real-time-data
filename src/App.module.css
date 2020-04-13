@@ -1,6 +1,10 @@
 body{
-    background-color: bisque;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-image: url('../src/images/12.jpeg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: whitesmoke;
 }
 .container{
     display: flex;

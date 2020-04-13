@@ -11,7 +11,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     const fetchMyAPI = async () => {
       const initialDailyData = await fetchDailyData();
 
-      setDailyData(initialDailyData);
+      setDailyData(initialDailyData); 
     };
 
     fetchMyAPI();
@@ -64,7 +64,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
 
   return (
     <div className={styles.container}>
-      {country ? barChart : lineChart}
+    {country ? barChart : lineChart}
     </div>
   );
 };
